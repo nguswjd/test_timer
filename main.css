@@ -65,6 +65,12 @@ main h2 {
   font-size: 12px;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .time input{
   width: 80px;
   height: 80px;

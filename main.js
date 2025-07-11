@@ -84,9 +84,15 @@ startBtn.addEventListener("click", () => {
     } else {
       clearInterval(timerInterval);
       timerInterval = null;
+
       start.textContent = "START";
-      startBtnImg.src = "image/icon-start.png";
-      start.style.backgroundColor = "";
+      startBtnImg.src = "image/icon-start-disabled.svg";
+      startBtn.style.backgroundColor = "";
+      startBtn.style.color = "";
+
+      resetBtnImg.src = "image/icon-reset-disabled.svg";
+      resetBtn.style.backgroundColor = "";
+      resetBtn.style.color = "";
       return;
     }
 
@@ -104,7 +110,7 @@ resetBtn.addEventListener("click", () => {
   hoursInput.value = 0;
   minutesInput.value = 0;
   secondsInput.value = 0;
-  
+
   start.textContent = "START";
   startBtnImg.src = "image/icon-start.png";
   start.style.backgroundColor = "";
