@@ -20,39 +20,39 @@
     <h2>TIMER</h2>
 
     <div class="timerBox">
-      <section class="hoursBox">
+      <section class="time">
         <h3>HRS</h3>
 
         <div>
-          <input type="text" placeholder="00">
+          <input type="number" placeholder="00" id="hoursInput" maxlength="2">
         </div>
       </section>
 
-      <section class="minBox">
+      <section class="time">
         <h3>MIN</h3>
 
         <div>
-          <input type="text" placeholder="00">
+          <input type="number" placeholder="00" id="minInput" maxlength="2">
         </div>
       </section>
 
-      <section class="secBox">
+      <section class="time">
         <h3>SEC</h3>
         
         <div>
-          <input type="text" placeholder="00">
+          <input type="number" placeholder="00" id="secInput" maxlength="2">
         </div>
       </section>
     </div>
 
     <div class="timerBtnBox">
-      <button>
-        <img src="image/icon-start-disabled.svg" alt="">
+      <button id="startBtn">
+        <img src="image/icon-start-disabled.svg" alt="" id="startBtnImg">
         <span>START</span>
       </button>
 
-      <button>
-        <img src="image/icon-reset-disabled.svg" alt="">
+      <button id="resetBtn">
+        <img src="image/icon-reset-disabled.svg" alt="" id="resetBtnImg">
         <span>RESET</span>
       </button>
     </div>

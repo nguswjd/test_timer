@@ -53,19 +53,19 @@ main h2 {
   gap: 20px;
 }
 
-.timerBox section {
+.time {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 18px;
 }
 
-.timerBox section h3 {
+.time h3 {
   color: #a5b6ee;
   font-size: 12px;
 }
 
-.timerBox section input{
+.time input{
   width: 80px;
   height: 80px;
 
@@ -75,7 +75,7 @@ main h2 {
   text-align: center;
 }
 
-.timerBox section input {
+.time input {
   font-size: 40px;
   color: #fff;
 
@@ -84,16 +84,16 @@ main h2 {
   background-color: transparent;
 }
 
-.timerBox section input::placeholder{
+.time input::placeholder{
   color: #fff;
 }
 
-.timerBox section {
+.time {
   position: relative;
 }
 
-.timerBox section div::before,
-.timerBox section div::after {
+.time div::before,
+.time div::after {
   display: block;
 
   content: "";
@@ -104,12 +104,12 @@ main h2 {
   position: absolute;
 }
 
-.timerBox section div::before {
+.time div::before {
   top: 65%;
   left: 0;
 }
 
-.timerBox section div::after {
+.time div::after {
   top: 65%;
   right: 0;
 }
