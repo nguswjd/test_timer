@@ -1,0 +1,141 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: pretendard, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: radial-gradient(
+    96.74% 276.79% at 3.59% 5.28%,
+    #f0f4ff 0%,
+    #a5b6ee 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 72px 0;
+}
+
+h1 img {
+  width: 224px;
+}
+
+main {
+  width: 400px;
+  height: 360px;
+
+  border-radius: 16px;
+
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+main h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+
+.timerBox {
+  display: flex;
+  gap: 20px;
+}
+
+.timerBox section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.timerBox section h3 {
+  color: #a5b6ee;
+  font-size: 12px;
+}
+
+.timerBox section div {
+  width: 80px;
+  height: 80px;
+
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  border: solid 1px #354971;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timerBox section p {
+  font-size: 40px;
+  color: #fff;
+}
+
+.timerBox section {
+  position: relative;
+}
+
+.timerBox section p::before,
+.timerBox section p::after {
+  display: block;
+
+  content: "";
+  width: 18px;
+  height: 1px;
+  background-color: #354971;
+
+  position: absolute;
+}
+
+.timerBox section p::before {
+  top: 65%;
+  left: 0;
+}
+
+.timerBox section p::after {
+  top: 65%;
+  right: 0;
+}
+
+.timerBtnBox {
+  display: flex;
+  gap: 12px;
+}
+
+.timerBtnBox button {
+  width: 112px;
+  height: 48px;
+
+  font-size: 14px;
+  color: #617199;
+
+  background-color: #324577;
+  box-shadow: 1px 1px 1px 0px #0000000D inset;
+
+  border-radius: 50px;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+footer p {
+  color: #8596bf;
+}
